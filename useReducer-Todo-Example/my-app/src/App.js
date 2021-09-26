@@ -1,9 +1,9 @@
 import React, { useState } from "react";
-import LoginPlain from "../src/components/LoginPlain";
+import LoginPlainReducer from "../src/components/LoginPlainReducer";
 function App() {
   return (
     <div className="App">
-      <LoginPlain />
+      <LoginPlainReducer />
     </div>
   );
 }
